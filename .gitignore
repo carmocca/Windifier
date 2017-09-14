@@ -168,3 +168,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Project stuff
+raw_data
+test
+src/processed_data
+src/models
+src/labels.csv
+src/errors.m3u
