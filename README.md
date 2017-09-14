@@ -20,13 +20,13 @@ pip install tensorflow
 7. Run generate_csv.py to generate the labels file
 
 ## Observations about papers
-· Fast Fourier transform (FFT)
-· Fractional Fourier transform (FRFT)
-· Short-time Fourier transform (STFT)
-· Mel-frequency cepstral coefficients (MFCC) (coefficients that collectively make up an Mel-frequency cepstrum, or MFC)
-· "Strait mel-frequencies" (Step 2 of MFCC derivation)
-· Constant-Q transform
-· Spectral centroid
+* Fast Fourier transform (FFT)
+* Fractional Fourier transform (FRFT)
+* Short-time Fourier transform (STFT)
+* Mel-frequency cepstral coefficients (MFCC) (coefficients that collectively make up an Mel-frequency cepstrum, or MFC)
+* "Strait mel-frequencies" (Step 2 of MFCC derivation)
+* Constant-Q transform
+* Spectral centroid
 ```
 ╔═══════════╦═════╦══════╦══════╦══════╦══════════╦════════════╦═══════════════════╗
 ║           ║ FFT ║ FRFT ║ STFT ║ MFCC ║ srait-MF ║ Constant-Q ║ Spectral Centroid ║
@@ -44,7 +44,7 @@ pip install tensorflow
 
 ```
 
-## SOURCES
+### Sources
 
 * **Bosch**: Training 6705 audio excerpts of 3 second length labeled with a single predominant instrument. Testing split contains 2874 audio excerpts of length 5~20 seconds labeled with more than one predominant instrument. Audios samples at 44.1kHz. CNN based on small-rectangular filters (of size 3×3)
 * **Pons**: Two architectures based on Bosch design strategy, Single-layer and Multi-layer. Implementation in Veleslavia/EUSIPCO2017
